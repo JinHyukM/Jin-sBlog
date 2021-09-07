@@ -1,0 +1,59 @@
+
+
+.experienceTop {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.experienceWrapper {
+    display:flex;
+    width: 70%;
+}
+
+
+.experienceLeft,
+.experienceRight {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+} 
+
+
+
+
+.techImg {
+  width: 12rem;
+  height: 12rem;
+  object-fit: contain;
+}
+
+
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.experienceBottom {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.site {
+    margin: 0 10px;
+}
+
+.address {
+    color: black;
+}
+
+.address:hover {
+    color:grey;
+    text-decoration: none;
+}

@@ -1,0 +1,72 @@
+
+.descriptionContainer {
+    width: 70%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 30px 0;
+}
+
+.descriptionWrapper {
+    padding: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.descriptionTop {
+    margin-bottom: 30px;
+}
+
+
+.projectInfo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    margin: 20px 50px;
+    text-align: center;
+}
+
+.desImg {
+    height: 370px;
+    width: 370px;
+    border-radius: 10px;
+}
+
+.descriptionBottom {
+    padding:30px;
+    width: 50%;
+}
+
+.controller {
+    margin-top: 100px;
+
+}
+
+.leftControl {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    background-size: 100%, 100%;
+    border-radius: 50%;    
+}
+
+.leftControl:after {
+    content: '<';
+    font-size: 55px;
+    color: grey;
+}
+
+.rightControl {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+
+.rightControl:after {
+    content: '>';
+    font-size: 55px;
+    color: grey;
+}
